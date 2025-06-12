@@ -11,7 +11,7 @@ const FeedbackForm = () => {
 
     const handleChange = (event) => {
         const { name, value } = event.target;
-        setFoarmData({
+        setFormData({
             ...formData,
             [name]: value
         });
